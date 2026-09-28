@@ -2,7 +2,7 @@
 
 from fastapi import FastAPI
 from pydantic import BaseModel
-from .chatbot_logic import ThoughtRecordBot
+from thought_record_bot_final import ThoughtRecordBot
 import uvicorn
 
 # --- Application Setup ---
